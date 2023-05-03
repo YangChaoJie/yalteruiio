@@ -1,0 +1,26 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "YJ_UI",
+    "home_page_url": "https://valaxy.site/",
+    "feed_url": "https://valaxy.site/feed.json",
+    "description": "vue3 ui library",
+    "icon": "https://www.yunyoujun.cn/images/avatar.jpg",
+    "author": {
+        "name": "VALAXY Developer",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<p>::: tip</p>\n<p>You can click this button to toggle locales.</p>\n<p>:::</p>\n<div class=\"text-center\">\n  <PressToggleLocale class=\"btn shadow\" />\n</div>\n<p>::: zh-CN</p>\n<blockquote>\n<p>在一个页面中实现 i18n</p>\n</blockquote>\n<p>为了使 <a href=\"https://github.com/YunYouJun/valaxy\">Valaxy</a> 成为一个国际化的项目，i18n 是必不可少的。</p>\n<p>常见的 i18n 方案为采用不同的路径（如 <code>/zh-CN/</code>）或解析不同的域名（<code>cn.xxx.xxx</code>）来分别维护。</p>\n<blockquote>\n<p>此外还可使用 <a href=\"https://crowdin.com/\">crowdin</a> 平台辅助用户进行多语言翻译。</p>\n</blockquote>\n<p>但对于博客来说，这显然都很麻烦。<br>\n当你需要 i18n 时，你不得不同时维护多个目录下的文章。<br>\n当文章间存在相同的示例时，你还需要维护相同的内容。非常不优雅。</p>\n<p>Valaxy 中，<br>\n站点的独立字段部分（如文章目录：Table of Contents）基于 <a href=\"https://vue-i18n.intlify.dev/\">vue-i18n</a> 实现，<br>\n而文章内容部分的大段文本则采用另一种 CSS i18n 的方案。</p>\n<p><a href=\"#result\">我想先看看效果</a></p>\n<p>:::</p>\n",
+            "url": "https://valaxy.site/posts/i18n",
+            "title": "How to realize CSS i18n?",
+            "date_modified": "2022-04-09T00:00:00.000Z",
+            "date_published": "2023-04-21T14:55:28.000Z",
+            "author": {
+                "name": "VALAXY Developer",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

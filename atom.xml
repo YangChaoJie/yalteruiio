@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://valaxy.site/</id>
+    <title>YJ_UI</title>
+    <updated>2023-05-03T10:53:19.954Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>VALAXY Developer</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://valaxy.site/"/>
+    <link rel="self" href="https://valaxy.site/feed.atom"/>
+    <subtitle>vue3 ui library</subtitle>
+    <logo>https://www.yunyoujun.cn/images/avatar.jpg</logo>
+    <icon>https://valaxy.site/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2023 © VALAXY Developer</rights>
+    <entry>
+        <title type="html"><![CDATA[How to realize CSS i18n?]]></title>
+        <id>https://valaxy.site/posts/i18n</id>
+        <link href="https://valaxy.site/posts/i18n"/>
+        <updated>2022-04-09T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>::: tip</p>
+<p>You can click this button to toggle locales.</p>
+<p>:::</p>
+<div class="text-center">
+  <PressToggleLocale class="btn shadow" />
+</div>
+<p>::: zh-CN</p>
+<blockquote>
+<p>在一个页面中实现 i18n</p>
+</blockquote>
+<p>为了使 <a href="https://github.com/YunYouJun/valaxy">Valaxy</a> 成为一个国际化的项目，i18n 是必不可少的。</p>
+<p>常见的 i18n 方案为采用不同的路径（如 <code>/zh-CN/</code>）或解析不同的域名（<code>cn.xxx.xxx</code>）来分别维护。</p>
+<blockquote>
+<p>此外还可使用 <a href="https://crowdin.com/">crowdin</a> 平台辅助用户进行多语言翻译。</p>
+</blockquote>
+<p>但对于博客来说，这显然都很麻烦。<br>
+当你需要 i18n 时，你不得不同时维护多个目录下的文章。<br>
+当文章间存在相同的示例时，你还需要维护相同的内容。非常不优雅。</p>
+<p>Valaxy 中，<br>
+站点的独立字段部分（如文章目录：Table of Contents）基于 <a href="https://vue-i18n.intlify.dev/">vue-i18n</a> 实现，<br>
+而文章内容部分的大段文本则采用另一种 CSS i18n 的方案。</p>
+<p><a href="#result">我想先看看效果</a></p>
+<p>:::</p>
+]]></content>
+        <author>
+            <name>VALAXY Developer</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-04-21T14:55:28.000Z</published>
+    </entry>
+</feed>
